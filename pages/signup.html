@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home - TailorKart</title>
-    <link rel="stylesheet" href="./style/style.css" />
+    <title>Signup - TailorKart</title>
+    <link rel="stylesheet" href="../style/style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -42,7 +42,41 @@
         </div>
       </div>
     </header>
-    <container> </container>
+    <div class="login-page">
+      <div class="login">
+        <div class="login-header">
+          <h2>Signup</h2>
+        </div>
+        <div class="login-items">
+          <div class="login-input">
+            <label>Email address</label>
+            <input type="text" placeholder="test@gmail.com" />
+          </div>
+          <div class="login-input">
+            <label>Password</label>
+            <input type="password" placeholder="************" />
+          </div>
+          <div class="remember-options">
+            <div class="remember">
+              <input
+                type="checkbox"
+                id="checkbox"
+                name="checkbox"
+                value="Bike"
+                class="checkbox"
+              />
+              <label for="checkbox">I accept all Terms & Conditions</label
+              ><br />
+            </div>
+          </div>
+          <button class="btn">Create New Account</button>
+          <div onclick="window.location='./login.html'" class="have-account flex">
+            <p>Already have an account</p>
+            <i class="fa-solid fa-angle-right"></i>
+          </div>
+        </div>
+      </div>
+    </div>
     <script
       src="https://kit.fontawesome.com/e141623122.js"
       crossorigin="anonymous"
