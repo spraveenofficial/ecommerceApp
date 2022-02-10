@@ -18,7 +18,7 @@
 }
 
 .card-category h2 {
-  background: var(--backround-white);
+  background: var(--white-color);
   display: flex;
   justify-content: center;
   text-align: center;
@@ -37,7 +37,7 @@
   }
   .card-category {
     margin: 0.8rem 0.8rem;
-    width: 220px;
+    width: 200px;
   }
   .topbar div:nth-child(5) {
     display: none;
