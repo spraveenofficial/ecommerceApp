@@ -1,10 +1,12 @@
 @import url("../style/header.css");
+@import url("../style/login.css");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
 
 :root {
   --backround-white: #f7f7f7;
   --white-color: white;
-  --black-color: black
+  --black-color: black;
+  --blue-color: #3b82f6;
 }
 
 * {
@@ -17,4 +19,8 @@ body {
   box-sizing: border-box;
   background: var(--backround-white);
   font-family: "Poppins", sans-serif;
+}
+/* Global Styling */
+.flex {
+  display: flex;
 }
