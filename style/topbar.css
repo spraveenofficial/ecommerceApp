@@ -1,0 +1,45 @@
+.topbar {
+  padding: 0px 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.card-category {
+  height: 150px;
+  width: 250px;
+  margin: 50px 20px;
+  background-image: url("../assets/men.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  background-size: 100%;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.card-category h2 {
+  background: var(--backround-white);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  transition: 0.3s;
+}
+.card-category:hover h2{
+    color: black;
+}
+@media (max-width: 767px) {
+  .topbar {
+    padding: 0px 0px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.3rem;
+  }
+  .card-category {
+    margin: 0.8rem 0.8rem;
+    width: 220px;
+  }
+  .topbar div:nth-child(5) {
+    display: none;
+  }
+}
