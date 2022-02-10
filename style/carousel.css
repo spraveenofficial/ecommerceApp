@@ -1,0 +1,14 @@
+.carousel{
+    background: var(--gray-color);
+    margin: 0px 50px;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+@media(max-width: 767px){
+    .carousel{
+        margin: 0px 10px;
+    }
+}
