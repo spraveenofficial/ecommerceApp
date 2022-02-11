@@ -48,6 +48,17 @@
 #card{
     min-width: 0.9rem !important;
 }
+.ico {
+    top: 0.7rem !important;
+    right: 1rem !important;
+}
+
+.ico i{
+    color: white;
+    font-size: 2rem !important;
+    width: min-content;
+}
+
 @media (max-width: 767px) {
     .ecom{
         width: 200px !important;
