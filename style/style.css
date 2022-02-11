@@ -5,6 +5,7 @@
 @import url("../style/carousel.css");
 @import url("../style/newarrival.css");
 @import url("../style/product.css");
+@import url("../style/wishlist.css");
 :root {
   --backround-white: #f7f7f7;
   --white-color: white;
