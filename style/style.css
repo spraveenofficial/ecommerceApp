@@ -4,6 +4,7 @@
 @import url("../style/topbar.css");
 @import url("../style/carousel.css");
 @import url("../style/newarrival.css");
+@import url("../style/product.css");
 :root {
   --backround-white: #f7f7f7;
   --white-color: white;
@@ -26,4 +27,24 @@ body {
 /* Global Styling */
 .flex {
   display: flex;
+}
+
+.justify-between{
+  justify-content: space-between;
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+.mt-10{
+  margin-top: 0.8rem;
+}
+
+.text-bold{
+  font-weight: bold;
+}
+
+.text-center{
+  text-align: center;
 }
