@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products - TailorKart</title>
+    <link rel="stylesheet" href="../style/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://componently.netlify.app/styles/components.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <h2>TailorKart</h2>
+      </div>
+      <div class="header-input">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" placeholder="Search" />
+      </div>
+      <div class="header-profile">
+        <div class="nav-mobile">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="navdesktop">
+          <button class="btn">Login</button>
+          <div class="badges">
+            <i class="text-gray fa-solid fa-heart"></i>
+            <div class="number">1</div>
+          </div>
+          <div class="badges">
+            <i class="text-gray fa-solid fa-cart-shopping"></i>
+            <div class="number fd">1</div>
+          </div>
+          <p class="text-gray">Cart</p>
+        </div>
+      </div>
+    </header>
+    <div class="products-page">
+      <div class="filter">
+        <div class="filter-heading flex justify-between">
+          <p>Filters</p>
+          <p class="pointer">Clear all</p>
+        </div>
+        <div class="all-filter">
+          <div class="filter-section mt-10">
+            <p class="text-bold">Category</p>
+            <label class="filters filter-block">
+              <input type="checkbox" /> Men Tshirt
+            </label>
+            <label class="filters filter-block">
+              <input type="checkbox" /> Men Jeans
+            </label>
+            <label class="filters filter-block">
+              <input type="checkbox" /> Sweatshirts
+            </label>
+            <label class="filters filter-block">
+              <input type="checkbox" /> Hoodies
+            </label>
+          </div>
+          <div class="filter-section mt-10">
+            <p class="text-bold">Price Range</p>
+            <label class="filters filter-block">
+              <input type="radio" /> Below 500
+            </label>
+            <label class="filters filter-block">
+              <input type="radio" /> 500 - 999
+            </label>
+            <label class="filters filter-block">
+              <input type="radio" /> 1000 - 4999
+            </label>
+            <label class="filters filter-block">
+              <input type="radio" /> 5000 +
+            </label>
+          </div>
+          <div class="filter-section mt-10">
+            <p class="text-bold">Rating</p>
+            <div class="filter">
+              1★
+              <input type="range" min="1" max="5" id="range" class="slider" />
+              5★
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="product-page text-center">
+        <h1>Products</h1>
+        <div class="products">
+          <div id="card" class="card ecom">
+            <div class="product-image">
+              <img src="../assets/man.jpg" alt="image" />
+            </div>
+            <div class="cart-badge">
+              <button class="ico">
+                <i class="fa fa-heart-o" aria-hidden="true"></i>
+              </button>
+              <div class="card-text">Nike Tshirt</div>
+              <div class="card-price">
+                <span class="price-now"> Rs. 89,100</span>
+                <span class="price-before">Rs. 90,000</span>
+                <span class="discount">(22% Off)</span>
+              </div>
+              <button class="btn btn-primary">Add to Cart</button>
+            </div>
+          </div>
+          <div id="card" class="card ecom">
+            <div class="product-image">
+              <img src="../assets/man.jpg" alt="image" />
+            </div>
+            <div class="cart-badge">
+              <button class="ico">
+                <i class="fa fa-heart-o" aria-hidden="true"></i>
+              </button>
+              <div class="card-text">Nike Tshirt</div>
+              <div class="card-price">
+                <span class="price-now"> Rs. 89,100</span>
+                <span class="price-before">Rs. 90,000</span>
+                <span class="discount">(22% Off)</span>
+              </div>
+              <button class="btn btn-primary">Add to Cart</button>
+            </div>
+          </div>
+          <div id="card" class="card ecom">
+            <div class="product-image">
+              <img src="../assets/man.jpg" alt="image" />
+            </div>
+            <div class="cart-badge">
+              <button class="ico">
+                <i class="fa fa-heart-o" aria-hidden="true"></i>
+              </button>
+              <div class="card-text">Life Tshirt</div>
+              <div class="card-price">
+                <span class="price-now"> Rs. 89,100</span>
+                <span class="price-before">Rs. 90,000</span>
+                <span class="discount">(22% Off)</span>
+              </div>
+              <button class="btn btn-primary">Add to Cart</button>
+            </div>
+          </div>
+          <div id="card" class="card ecom">
+            <div class="product-image">
+              <img src="../assets/man.jpg" alt="image" />
+            </div>
+            <div class="cart-badge">
+              <button class="ico">
+                <i class="fa fa-heart-o" aria-hidden="true"></i>
+              </button>
+              <div class="card-text">Life Tshirt</div>
+              <div class="card-price">
+                <span class="price-now"> Rs. 89,100</span>
+                <span class="price-before">Rs. 90,000</span>
+                <span class="discount">(22% Off)</span>
+              </div>
+              <button class="btn btn-primary">Add to Cart</button>
+            </div>
+          </div>
+          <div id="card" class="card ecom">
+            <div class="product-image">
+              <img src="../assets/man.jpg" alt="image" />
+            </div>
+            <div class="cart-badge">
+              <button class="ico">
+                <i class="fa fa-heart-o" aria-hidden="true"></i>
+              </button>
+              <div class="card-text">Life Tshirt</div>
+              <div class="card-price">
+                <span class="price-now"> Rs. 89,100</span>
+                <span class="price-before">Rs. 90,000</span>
+                <span class="discount">(22% Off)</span>
+              </div>
+              <button class="btn btn-primary">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/e141623122.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
