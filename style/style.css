@@ -6,6 +6,7 @@
 @import url("../style/newarrival.css");
 @import url("../style/product.css");
 @import url("../style/wishlist.css");
+@import url("../style/cart.css");
 :root {
   --backround-white: #f7f7f7;
   --white-color: white;
@@ -40,6 +41,16 @@ body {
 
 .mt-10{
   margin-top: 0.8rem;
+}
+.mr-10{
+  margin-right: 0.625rem;
+}
+
+.align-center{
+  align-items: center;
+}
+.mb-10{
+  margin-bottom: 0.625rem;
 }
 
 .text-bold{
