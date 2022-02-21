@@ -17,7 +17,7 @@
   </head>
   <body>
     <header>
-      <div class="logo">
+      <div onclick="window.location='/'" class="logo pointer">
         <h2>TailorKart</h2>
       </div>
       <div class="header-input">
@@ -29,33 +29,33 @@
           <i class="fa-solid fa-bars"></i>
         </div>
         <div class="navdesktop">
-          <button class="btn">Login</button>
-          <div class="badges">
+          <button onclick="window.location='./pages/login.html'" class="btn">Login</button>
+          <div class="badges" onclick="window.location='./pages/wishlist.html'">
             <i class="text-gray fa-solid fa-heart"></i>
             <div class="number">1</div>
           </div>
-          <div class="badges">
+          <div class="badges" onclick="window.location='./pages/cart.html'">
             <i class="text-gray fa-solid fa-cart-shopping"></i>
             <div class="number fd">1</div>
           </div>
-          <p class="text-gray">Cart</p>
+          <p onclick="window.location='./pages/cart.html'" class="text-gray">Cart</p>
         </div>
       </div>
     </header>
     <div class="topbar">
-      <div class="text-gray card-category">
+      <div onclick="window.location='./pages/product.html'" class="text-gray card-category">
         <h2>Man</h2>
       </div>
-      <div class="text-gray card-category">
+      <div onclick="window.location='./pages/product.html'" class="text-gray card-category">
         <h2>Man Tshirt</h2>
       </div>
-      <div class="text-gray card-category">
+      <div onclick="window.location='./pages/product.html'" class="text-gray card-category">
         <h2>Man Jeans</h2>
       </div>
-      <div class="text-gray card-category">
+      <div onclick="window.location='./pages/product.html'" class="text-gray card-category">
         <h2>Sweatshirt</h2>
       </div>
-      <div class="text-gray card-category">
+      <div onclick="window.location='./pages/product.html'" class="text-gray card-category">
         <h2>Kids</h2>
       </div>
     </div>

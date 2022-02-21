@@ -17,7 +17,7 @@
   </head>
   <body>
     <header>
-      <div class="logo">
+      <div onclick="window.location='/'" class="logo pointer">
         <h2>TailorKart</h2>
       </div>
       <div class="header-input">
@@ -29,16 +29,16 @@
           <i class="fa-solid fa-bars"></i>
         </div>
         <div class="navdesktop">
-          <button class="btn">Login</button>
-          <div class="badges">
+          <button onclick="window.location='./login.html'" class="btn">Login</button>
+          <div class="badges" onclick="window.location='./wishlist.html'">
             <i class="text-gray fa-solid fa-heart"></i>
             <div class="number">1</div>
           </div>
-          <div class="badges">
+          <div class="badges" onclick="window.location='./cart.html'">
             <i class="text-gray fa-solid fa-cart-shopping"></i>
             <div class="number fd">1</div>
           </div>
-          <p class="text-gray">Cart</p>
+          <p onclick="window.location='./cart.html'" class="text-gray">Cart</p>
         </div>
       </div>
     </header>
